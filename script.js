@@ -107,7 +107,8 @@ buttons.forEach(button => button.addEventListener('click', (e) => {
             break;
         case 'AC':
             savedValue = 0;
-            calculatedValue = 0
+            calculatedValue = 0;
+            operateValue = 0;
             savedOperator = null;
             displayOutputConsole.textContent = null;
             mainDisplayOutput.textContent = 0;
