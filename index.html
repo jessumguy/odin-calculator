@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" co    ntent="width=device-width, initial-scale=1.0">
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" type="text/css" href="stylesheet.css" media="screen"/>
+    <title>Document</title> 
+</head>
+<body>
+    <h1>JS Calculator App</h1>
+
+        <div id="calculator-container">
+
+            <div id="console-display"></div>
+            <div id="display">0</div>
+
+            <div id="buttons-container">
+                
+                <div id="first-row-buttons">
+                    <button id="ac-button" class="btn_hover" value="AC">AC</button>
+                    <button id="backspace-button" class="btn_hover" value="CE">&#8592;</button>
+                    <button id="divide-button" class="btn_hover" value="divide">&divide;</button>
+                </div>
+        
+                <div id="second-row-buttons">
+                    <button data-type="number" class="btn_hover" value="7">7</button>
+                    <button data-type="number" class="number btn_hover" value="8">8</button>
+                    <button data-type="number" class="number btn_hover" value="9">9</button>
+                    <button id="multiply-button" class="btn_hover" value="multiply">&times;</button>
+                </div>
+        
+                <div id="third-row-buttons">
+                    <button data-type="number" class="number btn_hover" value="4">4</button>
+                    <button data-type="number" class="number btn_hover" value="5">5</button>
+                    <button data-type="number" class="number btn_hover" value="6">6</button>
+                    <button id="subtract-button" class="btn_hover" value="subtract">&minus;</button>
+                </div>
+        
+                <div id="fourth-row-buttons">
+                    <button data-type="number" class="number btn_hover" value="1">1</button>
+                    <button data-type="number" class="number btn_hover" value="2">2</button>
+                    <button data-type="number" class="number btn_hover" value="3">3</button>
+                    <button id="add-button" class="btn_hover" value="add">&plus;</button>
+                </div>
+                
+                <div id="fifth-row-buttons">
+                    <button data-type="number" class="number btn_hover" value="0">0</button>
+                    <button class="number btn_hover" value=".">.</button>
+                    <button id="equal-button" class="btn_hover" value="equal">&#61;</button>
+                </div>
+
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
